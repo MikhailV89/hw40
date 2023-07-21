@@ -1,0 +1,37 @@
+.slider-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    max-width: 1000px;
+    max-height: 500px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
+    max-height: 500px;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 7vw;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: red;
+}
+
+#prevBtn {
+    left: -60px;
+}
+
+#nextBtn {
+    right: -60px;
+}
